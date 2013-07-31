@@ -1,0 +1,162 @@
+body { background: #fff; color: #555; }
+.singlepost {color:#393A3A;}
+a { color: #2986B8; }
+h1, h2, h3, h4, h5, h6 { color: #393A3A; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {  color: #F8FBFF; }
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { color: #F8FBFF;  }
+
+#featPosts { background: #414141; }
+#featPosts p { color: #fff; }
+#featPosts h2 a { color: #fff; }
+#featPosts h2 a:hover { color: #67BCEA; }
+#featPostsSmall { background: #343434; }
+#header { border-top: none; border-bottom: 1px solid #EDEDED; }
+#topNav { border-bottom: 1px solid #EDEDED; }
+#topNav a { color: #555860; text-shadow: none; }
+#topNav #menuSocial a { color: #2986B8; text-shadow: none; }
+#topNav #menuSocial a:hover { color: #2986B8; text-shadow: none; text-decoration:underline;}
+.dropdown a { text-shadow: none; color: #555860; }
+.dropdown a:hover {  background: #414141; color: #fff;  }
+.dropdown li:hover a {  background: #414141; color: #fff; }
+
+.dropdown li ul { position: absolute; left: 0; display: block; visibility: hidden; z-index: 100; background: #414141; text-align: left; margin: 0; -webkit-border-top-right-radius: 3px; -webkit-border-bottom-right-radius: 3px; -webkit-border-bottom-left-radius: 3px; -moz-border-radius-topright: 3px; -moz-border-radius-bottomright: 3px; -moz-border-radius-bottomleft: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; margin-top: -4px; padding: 3px 0; -moz-box-shadow: 0 4px 3px rgba(0,0,0,0.5); -webkit-box-shadow: 0 4px 3px rgba(0,0,0,0.5); -box-shadow: 0 4px 3px rgba(0,0,0,0.5); }
+
+.dropdown li ul li a { border-bottom: 1px solid #6F7274; color: #fff; }
+.dropdown li ul li a:hover { color: #ff; }
+.dropdown li:hover ul li a { color: #fff; }
+.dropdown li:hover ul li:hover a:hover { background: #535354; color: #fff; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; }
+
+.rightarrowclass { background: url(../images/righth.png) no-repeat center right; padding: 10px; position: absolute; right: 10px; }
+.downarrowclass { background: url(../images/downb.png) no-repeat center; }
+
+.dropdown li a:hover .downarrowclass, .dropdown li:hover .downarrowclass, .dropdown li.current_page_item a .downarrowclass, .dropdown li.current-cat a .downarrowclass { background: url(../images/downh.png) no-repeat center; }
+
+ 
+.dropdown ul li ul { box-shadow: none; }
+li.current-menu-item, li.current_page_item, li.current-menu-ancestor, li.current-menu-parent, li.current_page_parent { background: #414141; }
+li.current-menu-item a, li.current_page_item a, li.current-menu-ancestor a, li.current-menu-parent a, li.current_page_parent a { color: #fff; }
+
+#topNav .dropdown a:hover { background: #414141; color: #fff; }
+#topNav .dropdown li:hover a { color: #fff; background: #414141; }
+#topNav .dropdown li ul { position: absolute; z-index: 650; background: #414141; margin-top: -3px; }
+#topNav .dropdown li ul li a { border-bottom: 1px solid #6F7274; color: #fff; line-height: 1.7; }
+#topNav .dropdown li:hover ul li:hover a:hover { background: #535354; color: #fff; }
+#topNav li.current-menu-item, #topNav li.current_page_item,  #topNav li.current-menu-ancestor,  #topNav li.current-menu-parent,  #topNav li.current_page_parent { background-color: #2986B8; background-image:none;  -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;  }
+#topNav li.current-menu-item a, #topNav li.current_page_item a,  #topNav li.current-menu-ancestor a,  #topNav li.current-menu-parent a,  #topNav li.current_page_parent a { color:#fff; }
+
+
+#content div.postmetadata a { color: #2986B8; }
+#content div.postmetadata a:hover { color: #2986B8;  }
+
+#postFuncs { background: #343434; }
+p.more a { background: #292929; }
+p.more a:hover { background: #000; color: #fff; }
+#content ul.posts h2 a { color: #2986B8; }
+#content ul.grid li:hover { background: #414141; }
+
+#content ul.grid li:hover { background: #ECF0F5; }
+#content ul.list li { border-bottom: 1px solid #EDEDED }
+#featPostsSmall span { background: none; }
+a.previous { left: -17px; }
+a.next { right: -20px; }
+#featPosts p.postmetadata { color: #FFF  !important;}
+
+p.postmetadata a { color: #2986B8; }
+#featPosts p.postmetadata a { color: #67BCEA; }
+#content ul.list p { color:#393A3A; }
+#footer { color:#393A3A; border-top:1px solid #EDEDED; }
+
+#main div.navigation {float:left; width:100%; border-top: solid 1px #EDEDED; border-bottom: solid 1px #EDEDED; }
+
+.widget h3 { color:#555; border-bottom: 2px solid #EDEDED;}
+#container div.sep { border-bottom: 1px solid #EDEDED; }
+.singlepost h1 { border-bottom:1px solid #EDEDED; }
+#content div.postmetadata .section {  border-bottom: 1px solid #EDEDED;   }
+#content div.postmetadata .tags a { background:#2986B8; color:#fff; }
+#content div.postmetadata .tags a:hover { background:#1588C5; color:#fff; text-decoration:none; }
+.singlepost h1 a { color:#333;}
+.entry a { text-decoration:underline; color:#393A3A; }
+.entry a:hover { text-decoration:none;}
+.singlepost h1 a:hover { color:#414141;}
+div.zoomvideo_big,
+div.zoomvideo_big_jw { background: #414141; border-bottom:1px solid #C7CBD0; }
+.singlepost blockquote { border-left: 3px solid #393A3A;   color: #393A3A; }
+
+.widget  ul.posts li:hover {background-color: #2986B8; }
+.widget_categories ul li a:hover {color:#fff; }
+.widget_categories ul li:hover { background:#2986B8;  }
+.widget_categories ul li:hover a { color:#fff;  }
+.widget_categories ul li {color:#2986B8;}
+#footWidgets  .widget_categories ul li a:hover, #sidebar .widget_categories ul li a:hover {color:#fff;}
+
+#footWidgets a:hover {color: #2986B8;}
+
+#footer p.wpzoom a {color: #fff; text-decoration: none;}
+#footer p.wpzoom a:hover {color: #fff;  text-decoration: underline; }
+
+#main .normalComments li.comment {  background-color: #F8F8F8;   border-top: 1px solid #F8F8F8; }
+#main .normalComments li.bypostauthor, #main .normalComments ul.children li.comment {  background-color: #EDEDED; border-top:1px solid #EDEDED;}
+ 
+ #content h2.sep {
+    border-bottom: 1px solid #EDEDED;
+    border-top: 1px solid #EDEDED;
+    color:#333;
+    padding: 15px 0;
+}
+
+#main ol.normalComments a  {
+   text-decoration:none; color:#2986B8;
+}
+#main ol.normalComments a:hover {
+   text-decoration:underline; color:#2986B8;
+}
+#main ol.normalComments .fn a  {
+   text-decoration:none; color:#2986B8;
+}
+#main ol.normalComments img.avatar {
+    border: 4px solid #68717E;
+}
+
+#main input, #main textarea, #commentform input, #commentform textarea {font-size: 12px;  background-color: #F8F8F8;   border:1px solid #E6E6E6; color: #333;}
+
+#main #submit, #commentform #submit { background: #414141; }
+#main #submit:hover, #commentform #submit:hover { background: #768391; color: #fff; }
+
+#searchform input#searchsubmit {  background: #414141; color:#fff; }
+#searchform input#searchsubmit:hover {  background: #768391; color:#fff; }
+
+.wp-caption { background-color: #F4F4F4;}
+ 
+.widget .flickr_badge_image img { border: 3px solid #414141; width: 60px; height: 60px; float: left; }
+.widget .flickr_badge_image img:hover { border:3px solid #768391; }
+
+div.navigation a { color:#555; }
+div.navigation a:hover {background-color: #2986B8; }
+div.navigation a.current {background-color: #2986B8; }
+div.navigation span.current {  background-color: #2986B8;  }
+div.navigation a.next, div.navigation a.prev {line-height:35px; color:#2986B8;}
+div.navigation a.next:hover, div.navigation a.prev:hover {background:none; color:#3F99C9;}
+
+
+#respond h2 { color:#333; }
+#content div.postmetadata h3 { color:#555; }
+#main label, #commentform label { color:#555; }
+#searchform input#s {    width: 150px;}
+
+
+.gform_wrapper li.gfield, .gform_wrapper form li.gfield { 
+	background:none; 
+ 	padding:0;
+	border:0 none;
+}
+
+.gform_wrapper .top_label .gfield_label {font-size:16px !important; font-weight:normal; color:#fff;}
+
+#main .gform_wrapper li.gfield.gfield_error, #main .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning { background:none; padding:0 !important; border:0 none; }
+
+.gform_wrapper .top_label .gfield_error { width:auto !important; }
+
+#main input[type="file"] { background:none; border:none; }
+.gform_wrapper .gfield_error .gfield_label { color:#A31B1B !important; }
+.gform_wrapper li.gfield.gfield_error .gfield_description { color:#A31B1B !important; }
+.gform_wrapper .validation_error{ color:#A31B1B !important; }

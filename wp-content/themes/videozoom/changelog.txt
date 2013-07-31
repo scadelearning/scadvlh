@@ -1,0 +1,356 @@
+Videozoom Theme
+http://www.wpzoom.com/themes/videozoom
+ 
+CHANGELOG
+---------
+
+v 3.2.2 (May 8, 2013)
+
+	- Minor bug fixes. Added partial support for JW Player 6 Plugin for WordPress (version 2.0+)
+	- modified files:
+		/functions/theme/functions.php
+		/functions/theme/options.php
+		/functions/theme/post-options.php
+		index.php
+		wpzoom-slider.php
+
+
+v 3.2.1 (February 18, 2013)
+
+	- Bug fix in file '/js/script.js'
+	
+
+v 3.2 (January 26, 2013)
+
+	- Responsive design rebuild
+	- modified files:
+		/js/script.js
+		/styles/blue.css
+		/styles/light.css
+		/styles/pink.css
+		single.php
+		style.css
+		wpzoom-slider.php
+
+
+v 3.1.9 (January 16, 2013)
+
+	- style.css - fixed incorrect padding on large videos in individual posts.
+	 
+
+v 3.1.8 (January 11, 2013)
+	
+	- Added 404 template
+	- Fixed Video uploader in WordPress 3.5
+	- modified files:
+		- functions/theme/post-options.php
+		- style.css
+	
+	- added files:
+		- 404.php
+
+
+v 3.1.7 (December 16, 2012)
+	
+	- Added "Styling" section in Theme Options with different theme styling options.
+	- modified files:
+		- functions/theme/options.php
+		- style.css
+
+v 3.1.6 (October 31, 2012)
+	
+	- Self-hosted player fixed to play properly in individual posts on mobile devices.
+	- modified files:
+		- single.php
+		- style.css
+
+		
+v 3.1.5 (October 1, 2012)
+
+	- Small adjustments for Gravity Forms support
+	- modified files:
+		/styles/blue.css
+		/styles/light.css
+		/styles/pink.css
+		style.css
+		
+
+v 3.1.4 (September 13, 2012)
+
+	- Several improvements for video slider (fixed bug when video didn't stopped when clicking on another slide)
+	- modified files:
+		- wpzoom-slider.php
+		- functions/theme/functions.php
+		- functions/theme/options.php
+		- js/init.js
+		- js/slides.js
+
+
+v 3.1.3 (August 27, 2012)
+
+	- js/slides.js - script updated to latest version. Fixed bug with first and last items from slider not clicking.
+
+
+v 3.1.2 (August 6, 2012)
+
+	- style.css - fixed a bug with the "Fade" effect of the slider.
+	
+
+v 3.1.1 (August 3, 2012)
+	
+	- Removed option "Pause Slideshow on Mouse Hover" because it caused numerous problems.
+	- Added partial support for JW Player for WordPress plugin which allows to insert [jwplayer] shortcode in the slider.
+	- modified files:
+		/functions/theme/functions.php
+		/functions/theme/options.php
+		/functions/theme/post-options.php
+		style.css
+		
+
+v 3.1 (July 29, 2012)
+
+	- Added support for native WordPress image cropping
+	- The theme doesn't uses TimThumb script for thumbnails cropping anymore
+	- New jQuery slider on the homepage which supports multiple videos.
+	- Responsive layout
+	- Vimeo & YouTube API for Play/Pause events
+	- JW Player updated to latest version 5.10
+	- Option to set Video Thumbnails as Featured Image (image will be saved on your site)
+	- modified files:
+		/functions/theme/functions.php
+		/functions/theme/options.php
+		/functions/theme/post-options.php
+		/functions/theme/widgets/featured-posts.php
+		/functions/theme/widgets/featured_cat.php
+		/functions/theme/widgets/recentposts.php
+		/images/bg_direction_nav.png
+		/js/froogaloop.js
+		/js/jquery.fitvid.js
+		/js/jwplayer.js
+		/js/players.swf
+		/js/script.js
+		/js/slides.js
+		/styles/blue.css
+		/styles/dark.css
+		/styles/pink.css
+		archive.php
+		functions.php
+		footer.php
+		header.php
+		index.php
+		loop.php
+		loop-blog.php
+		single.php
+		style.css
+		template-blog.php
+		template-full-width.php
+		template-sidebar-left.php
+		wpzoom-slider.php
+ 
+
+v 3.0.5 (June 18, 2012)
+
+	- style.css - a few fixes to different image sizes.
+	
+
+v 3.0.4 (May 15, 2012)
+
+	- /js/script.js - fixed menus appearing under videos in individual posts
+	
+
+v 3.0.3 (May 3, 2012)
+
+	- fixed a bug with slider in IE
+	- new option which allows to hide specific social icons from the header
+		modified files:
+			- header.php
+			- style.css
+			- /functions/theme/options.php
+
+
+v 3.0.2 (March 6, 2012)
+	
+	- added a missing file: "/js/init.js"
+	
+
+v 3.0.1 (February 23, 2012)
+	
+	- single.php - file modified to fix HD plugin from JW Player
+	
+
+v 3.0 (February 22, 2012)
+
+	- Fully re-written code
+	- WPZOOM Framework is now integrated in this theme
+	- All theme files were modified.
+
+	New features:
+		- Facebook Widget
+		- Twitter Widget
+		- Slideshow now can display only specific posts which you mark as featured
+		- A new widgetized area on nomepage, in which you can add featured categories
+
+	Improvements:
+		- All widgets were updated.
+ 		- Posts from slideshow can be excluded from Recent Posts section
+		- Numerous bug fixes and code improvements
+
+ 
+v 2.7 (December 14, 2011)
+
+	- An update for WordPress 3.3
+	- Files edited: 
+		- header.php 
+		- page.php
+		- single.php
+		- style.css
+		- template-full-width.php
+		- template-sidebar-left.php
+		- /styles/blue.css
+		- /styles/light.css
+		- /styles/pink.css
+		- /languages/en_US.po
+	
+
+v 2.6 (November 8, 2011)
+
+	- js/jwplayer.js, js/player.swf, js/swfobject.js - JW Player updated to version 5.8
+	- functions/wpzoom-functions.php - new feature added: Automatic Video Thumbnail for YouTube & Vimeo videos.
+	- scripts/timthumb.php - file modified to support the new feature.
+
+
+v 2.5.2 (October 14, 2011)
+
+	- footer.php - bug fix with video playing in background in webkit browsers (Chrome, Safari)
+	
+
+v 2.5.1 (October 3, 2011)
+	
+	- new icon in Social Widget: Google Plus: 
+		modified file: functions/wpzooom-widgets.php
+		new file: images/icons/social_widget/gplus.png
+	
+	
+v 2.5 (September 16, 2011)
+	
+	- bug fix in shortcodes manager: functions/js/shortcode-generator/js/dialog-js.php
+	
+	
+v 2.4 (August 11, 2011)
+
+	- A fix for the adsense/amazon ads not showing up on homepage: footer.php
+	- /scripts/timthumb.php has been updated to 2.7
+
+
+v 2.3 (August 6, 2011)
+
+	- An important security fix: /scripts/timthumb.php has been updated to 2.0
+
+
+v 2.2
+
+	- functions/wpzoom-widgets.php - added "Vimeo" in the Social Widget
+	- images/icons/social_widget/vimeo.png - new file
+
+
+v 2.1 
+
+	- /js/dropdown.js file merged into /js/script.js
+	- header.php - removed "dropdown.js" calling
+	- footer.php - bug fixed with videos "wmode transparency" property
+	- wpzoom_featured_posts.php - bug fixed: remove JW Player logo in HTML5 video mode
+	
+
+v 2.0
+	
+	- functions/wpzoom-video.php - file deleted
+	- AutoEmbed feature deprecated
+	- Framework update. Modified/new files:
+		- functions.php
+		- functions/admin-style.css
+ 		- functions/wpzoom-core.php
+		- functions/wpzoom-functions.php
+		- functions/wpzoom-seo.php
+		- functions/wpzoom-shortcodes.php
+		- functions/wpzoom-shortcodes-init.php
+		- functions/wpzoom-sidebar.php
+		- functions/wpzoom-widgets.php
+ 		- functions/css - all files from this folder
+		- functions/images - all files from this folder
+		- functions/js - all files from this folder
+ 	- Modified files:
+		- archive.php
+ 		- comments.php
+ 		- footer.php
+		- header.php
+ 		- index.php
+  		- page.php
+ 		- search.php
+		- single.php
+ 		- style.css
+ 		- wpzoom_featured_posts.php
+ 		- wpzoom_admin/admin_functions.php
+  		- /js/dropdown.js
+	- Deleted files:
+		- author.php
+		- /js/jquery.cookie.js
+		- /js/loopedslide.min.js
+	- New files:
+		- /js/slides.js
+		- /js/player.swf
+		- /js/jwplayer.js
+		- /js/swfobject.js
+		- /js/skins/ - all files from this folder
+		- /images/arrows_blue.png
+		- /images/arrows_pink.png
+		- /images/shortcodes - all files from this folder
+		- /styles/blue.css
+		- /styles/pink.css
+		- /styles/light.css
+ 	- New Features:
+		- Show/Hide Meta Sidebar
+		- Show/Hide Social Icons in the Posts (global toggle)
+		- Support for Self-hosted videos with JW Player integration
+		- Show/Hide Social Icons in the header
+		- Video Widget
+		- Shortcodes Manager
+		- New Color Schemes: Light, Blue and Pink
+		
+
+v 1.3 
+
+	- new features:
+		Default Layout option in Theme Options
+		Layout Switcher toggle
+		Option to adjust the size of video/image from Slider
+		Option to disable AutoEmbed
+	- new file: custom.css - add in it your custom CSS code.
+	- minor fixes to support child themes
+	- modified files:
+		functions/wpzoom-core.php
+		functions/wpzoom-functions.php
+		wpzoom_admin/admin_functions.php
+		wpzoom_admin/options.css
+		wpzoom_featured_posts.php
+		wpzoom_recent_posts.php
+		header.php
+		index.php
+		style.css
+		footer.php
+		single.php
+		
+v 1.2
+
+	- /functions/wpzoom-video.php - file modified to add support for HTML5 (new embed code) player from YouTube and Vimeo.
+	
+v 1.1  
+	
+	- minor bug fixes
+	- added localization support (multilingual)
+	- added support for WPMU
+	- /scripts/timthumb.php file updated
+	- added "Category Excluder" feature in Options Panel.
+
+v 1.0  
+	
+	- initial release

@@ -1,0 +1,219 @@
+/******************************************  
+ CUSTOM STYLESHEET
+*******************************************/
+
+/*
+* You can place your custom CSS statements in this file, after this message.
+* It is better to write everything custom here
+* because this file won't be replaced during updates.
+* 
+* Simply copy an existing style from style.css to this file, 
+* and modify it to your liking.
+*/
+/*@import url("bootstrap/css/bootstrap.css");*/
+
+/*-----------Global Rules-----------*/
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #888;
+  background-color: #171717;
+}
+
+/*-----------Links-----------------*/
+a {
+  color: #0088cc;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #005580;
+  text-decoration: underline;
+}
+
+/*-----------Form Fields-------------*/
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
+
+button,
+input {
+  *overflow: visible;
+  line-height: normal;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+label,
+select,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="radio"],
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+input[type="search"] {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+  -webkit-appearance: textfield;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/*-----------Front Page-------------*/
+
+/*------------Single Post-----------*/
+div.singlepost p.postmetadata { margin-top: 5px; margin-left: 15px;}
+
+.singlepost h1 {margin-top: 33px}
+/*------------Video Container--------*/
+
+div.zoomvideo_big,
+div.zoomvideo_big_jw { margin-right: 15px; margin-bottom: 0px; margin-left: 15px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+
+/* Video at the top */
+div.zoomvideo_big iframe,
+div.zoomvideo_big embed,
+div.zoomvideo_big object,
+div.zoomvideo_big_jw_wrapper { width:896px !important; height:529px !important; }
+
+/*------------Sidebar---------------*/
+
+#sidebar {margin-top: 57px; width: 225px; }
+
+/*Search Form*/
+
+.widget_search{margin-bottom: 57px;}
+
+#searchform input#s {border-radius:7px; -moz-border-radius: 7px; -webkit-border-radius: 7px; width: 182px;}
+
+#searchform input#searchsubmit {border-radius: 20px; -moz-border-radius: 20px; -webkit-border-radius: 20px; font-size: 12px; font-family:Arial, sans-serif; font-weight: bold; height: 30px; width: 30px; padding:0; margin-left: 4px; cursor: pointer; background: url("images/back_funcs.png") repeat-x left top #2E2E2E; position:relative; }
+
+/* Upcoming Events*/
+ul.upcoming {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+ul.upcoming li {
+	padding: 8px 0;
+	border-bottom: 1px dotted #444;
+	color: #999;
+	vertical-align: text-bottom;
+	text-decoration: none;
+}
+.day {
+	padding: 4px 2px;
+	border:  1px solid #555;
+	border-radius:3px;
+	background-color: #333;
+	color: #eee;
+	font-size: 10px;
+	font-weight: normal;
+	margin: 0 10px 0 0;
+}
+
+
+.tooltip_date {
+	outline:none;
+	text-decoration:none;
+}
+.tooltip_date strong {line-height:30px;}
+.tooltip_date:hover {text-decoration:none;}
+.tooltip_date div { 
+	z-index:10;
+	display:none;
+	padding:3px 0;
+	margin-top: -5px;
+	margin-left: 15px;
+	width:190px;
+	line-height:16px;
+	font-size: 10px;
+	text-align: center;
+}
+
+.tooltip_date:hover div{
+	display:inline;
+	position:absolute;
+	color:#eee;
+	border:1px solid #555;
+	background: rgba(51, 51, 51, .9);
+} 
+
+/*CSS3 extras*/
+
+.tooltip_date div {
+	border-radius:3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-box-shadow: 2px 2px 5px #222;
+	-webkit-box-shadow: 2px 2px 5px #222;
+	box-shadow: 2px 2px 5px #222;
+} 
+
+.arrow_box {
+	position: relative; 
+	background: rgba(51, 51, 51, .9); 
+	border: 2px solid #555;
+}
+.arrow_box:after, .arrow_box:before {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+} 
+.arrow_box:after {
+	border-color: rgba(51, 51, 51, 0);
+	border-right-color: #333;
+	border-width: 6px;
+	top: 50%;
+	margin-top: -6px;
+} 
+.arrow_box:before {
+	border-color: rgba(85, 85, 85, 0);
+	border-right-color: #555;
+	border-width: 7px;
+	top: 50%;
+	margin-top: -7px;
+}
